@@ -26,32 +26,32 @@ very basic C major, A minor alternating progression would allow a C pentatonic s
 tempo
 - rate of chats per minute maps to tempo of song
 
-How does it work
-streamer.bot watches Twitch chat and sends chat message to a websocket (local)
-Python picks up messages from websocket server
-Python parses messages and sends MIDI signals
-loopMIDI carries midi signals on device
-Ableton reads the signals and plays virtual instruments
+How does it work  
+streamer.bot watches Twitch chat and sends chat message to a websocket (local)  
+Python picks up messages from websocket server  
+Python parses messages and sends MIDI signals  
+loopMIDI carries midi signals on device  
+Ableton reads the signals and plays virtual instruments  
 
-side idea: sweep filters over 8 bars.
-chat controls on/off, direction of sweep
+side idea: sweep filters over 8 bars.  
+chat controls on/off, direction of sweep  
 
 
 
-questions for later:
-- how easy is it to overload a midi bus?
+questions for later:  
+- how easy is it to overload a midi bus?  
 
 
 
 concept:
 
-ambient music, programmed in Sonic Pi, but chat can inject notes into a queue of notes, and that echoes through the ambient music in sonic pi
+ambient music, programmed in Sonic Pi, but chat can inject notes into a queue of notes, and that echoes through the ambient music in sonic pi  
 
 
-live coding performance with some amount of chat input?
+live coding performance with some amount of chat input?  
 
-side note: heat plugin for Twitch with maybe Godot?
-side note: ableton vs sonic pi
+side note: heat plugin for Twitch with maybe Godot?  
+side note: ableton vs sonic pi  
 
 - poll integration
 - saved songs and switching
